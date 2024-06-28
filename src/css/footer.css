@@ -1,0 +1,17 @@
+footer {
+    margin: 20px 0px;
+}
+
+footer p a {
+    color: var(--cor-principal);
+    margin: 5px 15px;
+}
+
+footer p a:hover {
+    color: var(--cor-principal);
+}
+
+footer div.redes a {
+    color: var(--cor-branca);
+    background: var(--cor-principal);
+}

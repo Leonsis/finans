@@ -1,0 +1,57 @@
+header {
+	border-bottom: 1px solid var(--cor-branca);
+}
+
+header nav div a#logo img{
+	width: 142px;
+}
+
+header nav div ul li a{
+	color: var(--cor-branca);
+}
+
+header nav div ul li a{
+	border: 1px solid var(--cor-branca);
+    display: flex;
+    padding: 5px;
+}
+
+header nav div ul li a:hover{
+	background: var(--cor-branca);
+    color: var(--cor-principal);
+    text-decoration: none;
+}
+
+header nav div ul li.bordar a{
+	border-radius: 5px 0 0px 5px;
+}
+
+header nav div ul li.bordal a{
+	border-radius: 0px 5px 5px 0px;
+}
+
+header nav div ul li a.botao{
+	border: 1px solid var(--cor-branca);
+    margin-left: 10px;
+}
+
+header nav div ul li a.botao:hover{
+	color: var(--cor-principal);
+    background: var(--cor-branca);
+}
+
+@media (max-width: 576px) {
+    header nav div ul li a{
+        border: none;
+    }
+
+    header nav div ul li a:hover{
+        background: none;
+        color: var(--cor-branca);
+        text-decoration: underline;
+    }
+
+    header nav div ul li a.botao{
+        margin-left: 0px;
+    }
+}
